@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <script src="javascript.js" defer></script>
+   <title>Sign up</title>
+</head>
+
+<body>
+   <section id="form">
+      <div id="sidebar"> 
+         <img src="images/bg-image.jpg" alt="canyon-image" id="bg-image">
+         <div id="main-logo">
+            <img src="images/odin-honeydew.png" alt="logo-image" id="logo-image">
+            <span id="logo-text">Explore</span>
+         </div>
+      </div>
+
+      <div id="form-explore-side">
+
+         <div id="form-description">
+         <p class="description">
+            Explore the unknown, discover new places, and embrace every opportunity 
+            to step beyond the familiar. Sign in, while each new journey brings unexpected 
+            experiences, distant horizons, and unforgettable memories.   
+         </p>
+         <p class="small-description"><i>You know you want to.</i></p>
+         </div>
+
+         <div id="form-explore">
+            <h2>Let's explore!</h2>
+         <form action="#random-link" method="post">
+
+         <div class="form-field">
+            <div class="form-group">
+               <label for="first-name">First Name</label>
+               <input type="text" id="first-name" name="first-name">
+            </div>
+            <div class="form-group">
+               <label for="last-name">Last Name</label>
+               <input type="text" id="last-name" name="last-name">
+            </div>
+         </div>
+
+         <div class="form-field">
+            <div class="form-group">
+               <label for="email">Email</label>
+               <input type="email" id="email" name="email" required>
+               <span class="error-message">Please enter a valid email address</span>
+            </div>
+            <div class="form-group">
+               <label for="phone">Telephone</label>
+               <input type="tel" id="phone" name="phone-number">
+            </div>
+         </div>
+
+         <div class="form-field">
+            <div class="form-group">
+               <label for="password">Password</label>
+               <input type="password" id="password" name="password">
+            </div>
+            <div class="form-group">
+               <label for="confirm-password">Confirm password</label>
+               <input type="password" id="confirm-password" name="confirm-password">
+            </div>
+
+         </div>
+
+            <button type="submit">Explore Now</button>
+         </form>  
+         </div>
+
+         <p class="log-in">Already have an account? <a href="#log-in">Log in</a></p>
+      </div>
+
+   </section>
+</body>
+
+</html>
